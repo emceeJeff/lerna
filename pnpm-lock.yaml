@@ -104,10 +104,10 @@ importers:
         specifier: ^1.5.1
         version: 1.5.1(react-dom@18.1.0)(react@18.1.0)
       footer:
-        specifier: '*'
+        specifier: ^1.1.0
         version: link:../footer
       header:
-        specifier: '*'
+        specifier: ^1.1.0
         version: link:../header
       react:
         specifier: 18.1.0
