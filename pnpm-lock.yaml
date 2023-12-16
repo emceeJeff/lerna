@@ -105,10 +105,10 @@ importers:
         version: 1.5.1(react-dom@18.1.0)(react@18.1.0)
       footer:
         specifier: '*'
-        version: 1.0.0
+        version: link:../footer
       header:
         specifier: '*'
-        version: 0.1.0
+        version: link:../header
       react:
         specifier: 18.1.0
         version: 18.1.0
@@ -5853,10 +5853,6 @@ packages:
         optional: true
     dev: true
 
-  /footer@1.0.0:
-    resolution: {integrity: sha512-sSdesgHf/ZxrvmuFSRhmQIA7YAfVT/RqnXzRYyeQpd93GG8nxmD6XcJvnKGf6YLKiNgDnwyCNaL8sL3811XiLg==}
-    dev: false
-
   /for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
     dependencies:
@@ -6383,10 +6379,6 @@ packages:
   /hast-util-whitespace@2.0.1:
     resolution: {integrity: sha512-nAxA0v8+vXSBDt3AnRUNjyRIQ0rD+ntpbAp4LnPkumc5M9yUbSMa4XDU9Q6etY4f1Wp4bNgvc1yjiZtsTTrSng==}
     dev: true
-
-  /header@0.1.0:
-    resolution: {integrity: sha512-k8BLOp74CZ/n2zAZC9+/u6pmVZ7C8RgCPKcWJklHCSzVIGTd2GblvPsDvV0ysFkR+z9kLagZgQR08mhNVL6PfQ==}
-    dev: false
 
   /history@5.3.0:
     resolution: {integrity: sha512-ZqaKwjjrAYUYfLG+htGaIIZ4nioX2L70ZUMIFysS3xvBsSG4x/n1V6TXV3N8ZYNuFGlDirFg32T7B6WOUPDYcQ==}
