@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^7.1.5"
+    "lerna": "^8.0.1"
   },
   "volta": {
     "node": "18.17.1"
