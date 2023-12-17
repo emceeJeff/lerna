@@ -4,7 +4,7 @@
   "npmClient": "pnpm",
   "command": {
     "version": {
-      "git-tag-version": false
+      "no-git-tag-version": true
     }
   }
 }
