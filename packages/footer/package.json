@@ -1,5 +1,5 @@
 {
-  "name": "footer",
+  "name": "@emceeJeff/footer",
   "version": "1.3.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -26,5 +26,5 @@
   "publishConfig": {
     "@emceeJeff:registry": "https://npm.pkg.github.com"
   },
-  "gitHead": "a2739123bf4cbee8f353fcd79cb43054191321f1"
+  "gitHead": "da59d8527080d58e72c33dc38b3abd1c6fbf5062"
 }
