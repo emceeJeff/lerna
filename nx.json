@@ -1,16 +1,5 @@
 {
   "$schema": "node_modules/nx/schemas/nx-schema.json",
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx/tasks-runners/default",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "test"
-        ]
-      }
-    }
-  },
   "namedInputs": {
     "default": [
       "{projectRoot}/**/*"
@@ -30,13 +19,15 @@
       ],
       "dependsOn": [
         "^build"
-      ]
+      ],
+      "cache": true
     },
     "test": {
       "inputs": [
         "default",
         "^prod"
-      ]
+      ],
+      "cache": true
     },
     "dev": {
       "dependsOn": [
