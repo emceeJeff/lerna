@@ -8,3 +8,4 @@ packages/remixapp/public/build
 .env
 
 lerna-debug.log
+.npmrc
