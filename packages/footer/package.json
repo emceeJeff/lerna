@@ -29,6 +29,5 @@
   },
   "publishConfig": {
     "@emceeJeff:registry": "https://npm.pkg.github.com"
-  },
-  "gitHead": "1c9738c8e604bd7cf9678403009898d33890b51f"
+  }
 }
