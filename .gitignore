@@ -9,3 +9,4 @@ packages/remixapp/public/build
 
 lerna-debug.log
 .npmrc
+.nx
